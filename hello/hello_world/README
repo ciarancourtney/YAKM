@@ -1,0 +1,23 @@
+## How to run hello_world                  
+
+The bundled program hello_world.c contains code to call the added system call. 
+
+To compile it, use the following command:        
+
+    make hello_world
+
+You should now have an executable that you can execute using:
+
+    ./hello_world
+
+The ouput should be:
+
+    Hello_world returned 0
+
+You can check that the call worked by checking the linux kernel log, typically /var/log/syslog or dmesg
+
+### Appendix
+
+-All above commands assume that you have permission to run them, if you try to run them in place i.e in /usr/src you will need to be root (prepend sudo to commands)
+
+-The hello_world program is already compiled into an executable for handiness, but it will only run on x86_64, to run on x86 you will need to change the syscall(545) to the right value for x86, "358"
