@@ -880,6 +880,6 @@ asmlinkage long sys_bpf(int cmd, union bpf_attr *attr, unsigned int size);
 
 asmlinkage long sys_hello(void);
 
-asmlinkage long sys_adder(void);
+asmlinkage long sys_adder(int i,int j);
 
 #endif

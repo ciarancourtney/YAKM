@@ -1,1 +1,1 @@
-
+obj-y := adder.o
