@@ -368,3 +368,4 @@
 544	x32	io_submit		compat_sys_io_submit
 545	x32 	hello			sys_hello
 546	x32 	adder			sys_adder
+547	x32 	writer			sys_writer

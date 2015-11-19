@@ -366,3 +366,4 @@
 357	i386	bpf			sys_bpf
 358	i386	hello			sys_hello
 359	i386	adder			sys_adder
+360	i386 	writer			sys_writer

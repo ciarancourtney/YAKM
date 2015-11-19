@@ -882,4 +882,5 @@ asmlinkage long sys_hello(void);
 
 asmlinkage long sys_adder(void);
 
+asmlinkage long sys_writer(void);
 #endif
