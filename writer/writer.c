@@ -11,7 +11,7 @@
  * Created on November 17, 2015, 7:24 PM
  */
 
-#include <fcntl.h>
+#include <usr/include/fcntl.h>
 #include <string.h>
 #include <sys/stat.h>
 #include <sys/types.h>
