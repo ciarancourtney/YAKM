@@ -879,4 +879,7 @@ asmlinkage long sys_getrandom(char __user *buf, size_t count,
 asmlinkage long sys_bpf(int cmd, union bpf_attr *attr, unsigned int size);
 
 asmlinkage long sys_hello(void);
+
+asmlinkage long sys_adder(void);
+
 #endif
